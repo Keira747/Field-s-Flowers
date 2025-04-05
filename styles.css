@@ -1,0 +1,93 @@
+header{
+    /*color: #f00;*/
+    color: #f9f2f6; /*using */
+    background-color: #FFB2DF;
+    padding: 10px;
+}
+header{
+    font-size: 15px;
+    font-family:'Courier New', Courier, monospace;
+    text-align:left;
+}
+h2{
+    text-align:right;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-size:18px;
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:left;
+    padding-block-start: 10px;
+    padding: bottom 0;;
+    padding-inline: 20px;
+    page-orientation: 20px;
+    
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    font-family: monospace;
+}
+ul{
+    list-style: none;
+    background:#FFB2DF;
+}
+ul li{
+    display: inline block;
+    position: relative;
+}
+ul li a {
+    display: inline block;
+    padding: 15px 20px;
+    color: #FFF;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+ul li ul.dropdown li {
+display: block;
+}
+ul li ul.dropdown {
+    width: 40%;
+    background: #FFB2DF;
+    position: absolute;
+    z-index: 999;
+    display: none;
+}
+ul li a:hover {
+    background:lightgreen;
+}
+ul li:hover ul.dropdown {
+    display: block;
+}
+h3{
+    text-align: right;
+}
+h4{
+    text-align: center;
+}
+footer h4{
+    text-align:right;
+}
+h5{
+    font-size:x-large;
+}
+h6{
+    font-size: x-large;
+}
+ul{
+    list-style-type: disc;
+    color: none;
+    width: 40%;
+}
+h6{
+    text-align:right;
+}
+.p2 { 
+text-align: end;
+font-size: 25px;
+font-weight: bold;
+}
+

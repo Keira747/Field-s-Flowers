@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <Link rel="stylesheet" href="styles.css"/>
+         <link rel="stylesheet" href="selector-styles.css" />
+        <title>Order Form</title>
+        <link rel="stylesheet" href=".order_styles.css">
+    </head>
+
+    <title>Orders</title>
+
+    <h1>Order Here</h1>
+
+    <body>
+        <ul>
+            <li>
+            <a href="#">Home ↓</a>
+            <ul class="dropdown">
+            <li><a href="Products.html">Products</a></li>
+            <li><a href="Orders.html">Orders</a></li>
+            <li><a href="Contact_information.html">Contact Information</a></li>
+            </ul>
+    </ul>
+    
+
+        <form action="#" method="POST">
+            <!-- Item Dropdown -->
+            <label for="Items">Items Type Selection:</label>
+            <select id="Items" name="Items">
+                <option value="Custom Bouquet"> Custom Bouquet</option>
+                <option value="Seedlings">Flower Seedlings</option>
+                <option value="Flowers for Events">Flowers for Events</option>
+            </select>
+            <br><br>
+    
+            <!-- Gift Radio buttons -->
+            <label>Add a Card?:</label>
+            <input type="radio" id="Yes" name="Yes" value="Yes">
+            <label for="Yes">Yes</label>
+            <input type="radio" id="No" name="No" value="No">
+            <label for="No">No</label>
+            <br><br>
+    
+            <!-- Message Box -->
+            <label for="message">Add a Message:</label>
+            <textarea id="message" name="message" rows="4" cols="50" placeholder="Enter your message here..."></textarea>
+            <br><br>
+    
+            <!-- Order Checkbox -->
+            <label for="Order">Order:</label>
+            <input type="checkbox" id="Order" name="Order">
+            <label for="Order">Yes, I want a reciept.</label>
+            <br><br>
+    
+            <!-- Submit Button -->
+            <input type="submit" value="Submit">
+        </form>
+    </body>
+    <footer>
+       
+       
+        <footer>
+                <div class="footercontainer">
+                <img src="Tulip.jpg" width="1500" height="100" id="Tulips">  
+                <img src="d45e47ee0ea7e9e285de7d10f34d2f6e.gif" width="75" height="75" id="tulipgif">
+                    <h3>Customer Service</h3>
+                    <h4><a href="Contact_Information.html">Contact Us</a></h4>
+                    <h4><a href="Orders.html">Track Orders</a></h4>
+                    <div class="footerbottom">
+                          </div>
+                </div>
+            </footer>
+    </footer>
+</html>
